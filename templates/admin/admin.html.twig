@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Administration{% endblock %}
+
+{% block body %}
+    <h1>Administration</h1>
+
+    <h2>Gérer le contenu des pensionnaires</h2>
+    <ul>
+        <h4>Gestion des pensionnaires</h4>
+        <li><a href="{{ path('app_pensionnaires_new') }}">Ajouter un nouveau pensionnaire</a></li>
+        <li><a href="{{ path('app_pensionnaires_index') }}">Liste des pensionnaires</a></li>
+        <h4>Gestion des évènements</h4>
+        <li><a href="{{ path('app_calendrier_new') }}">Ajouter un évènement</a></li>
+        <li><a href="{{ path('app_calendrier_index') }}">Liste des évènements</a></li>
+        <h4>Gestion des participants aux évènements</h4>
+        <li><a href="{{ path('app_formulaires_evenementiel_index') }}">Liste des participants aux évènements</a></li>
+    </ul>
+{% endblock %}

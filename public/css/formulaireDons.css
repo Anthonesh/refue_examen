@@ -1,0 +1,50 @@
+#don-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+#don-form h2 {
+    margin-bottom: 20px;
+}
+
+#don-form .form-group {
+    margin-bottom: 15px;
+}
+
+#don-form input, #don-form select, #don-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#don-form button.btn-success {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#don-form button.btn-success:hover {
+    background-color: #183926;
+    justify-content: center;
+}
+
+.form-subtitle{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}

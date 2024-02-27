@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Formulaires{% endblock %}
+
+{% block body %}
+    <h1>Create new Formulaires</h1>
+
+    {{ include('formulaires_evenementiel/_form.html.twig') }}
+
+    <a href="{{ path('app_formulaires_evenementiel_index') }}">back to list</a>
+    {% include 'components/carousel.html.twig'%}
+{% endblock %}
